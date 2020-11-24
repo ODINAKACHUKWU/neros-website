@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --green: #377d48;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.support-section {
+  background-color: #377d48;
+  background-color: var(--green);
+  font-size: 0.9em;
+}
+
+li.nav-item.active a {
+  color: #ff0000 !important;
+}
+
+hr.line {
+  border-top: 1px solid rgb(66, 66, 66);
+}
+
+footer {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  font-size: 0.9rem;
+}
+
+a.nav-link.active {
+  color: rgb(77, 77, 77) !important;
+}
+
+.social-links {
+  font-size: 1.3em;
+}
+
+footer i:hover {
+  color: white !important;
+}
+
+footer a.nav-link {
+  padding: 0 !important;
+}
+
+footer a.nav-link:hover,
+a:hover {
+  color: white !important;
+}
+
+header a.nav-link:hover {
+  color: red !important;
+}
+
+header .nav-link {
+  padding: 0.5rem 0rem !important;
+}
+
+.divider {
+  border-top: 1px solid rgb(66, 66, 66);
+}
+
+footer .fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
+  font-size: 1.3em !important;
+}
+
+section.subscription {
+  background-color: red;
+  color: white;
+}
+
+section.subscription .btn {
+  border: 1px solid white;
+  border-radius: 0;
+  background-color: white;
+}
+
+input#emailInput.form-control {
+  background: rgba(225, 225, 225, 0.3);
+  border-radius: 0;
+  color: white !important;
+}
+
+input#emailInput.form-control::placeholder {
+  color: white !important;
+}
+
+input#emailInput.form-control:focus {
+  color: white;
+}
